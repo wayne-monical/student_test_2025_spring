@@ -12,12 +12,12 @@ I combined five data sources to create a unified table to make analysis easy. Ea
 
 We discovered that high arsenic concentrations were reported in July and August of 2010 at the water sampling site GRTE_SNR01. At the same time, two elk had traveled around this sampling site, potentially exposing themselves to unhealthy levels of arsenic in water. Other notable markers of poor water quality that we observed included low dissolved oxygen concentrations in June and July of 2010, as well as relatively high chloride levels in October of 2010. Chloride is a chemical that may indicate the presence of lead in water, which has no safe concentration for exposure.
 
-![arsenic]('images/arsenic.png')
+![arsenic](images/arsenic.png)
 
 ## Geographic Data
 
 Secondly, I learned to utilize geographic data in the form of raster files. I imported vegetation land cover data taken via satellite from the state of Wyoming. Using the tools in the [terra R package](https://cran.r-project.org/web/packages/terra/index.html), I reprojected the coordinates of the raster file to latitude and longitude, so that they would align with the elk's location data (also given in latitude and longitude) and the maps given in the [ggmap package](https://cran.r-project.org/web/packages/ggmap/index.html), allowing side by side comparisons of elk activity along geographic and natural borders. 
 
-![maps]('images/movement.png')
+![maps](images/movement.png)
 
 
