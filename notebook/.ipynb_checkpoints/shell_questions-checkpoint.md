@@ -1,0 +1,8 @@
+- How would you list all files in the current directory, including hidden ones?
+- What command would you use to find the number of lines in a file named `data.txt`?
+- How can you search for the string "error" in all `*.log` files in the current directory?
+- Describe how you would change the permissions of a file named `script.sh` to make it executable.
+- How would you display the last 20 lines of a file named output.log?
+- Explain how to combine the contents of `file1.txt` and `file2.txt` into a new file named combined.txt.
+- How would you check for the presence of the word "Completed" in a file named `status.txt` and display the line containing it?
+- What command can you use to sort the lines in a file named `unsorted.txt` in alphabetical order and save the result to a new file named `sorted.txt`?
